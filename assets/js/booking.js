@@ -22,6 +22,43 @@ const database = firebase.database();
 var db = firebase.firestore();
 //const bookingListRef = firebase.database.ref('bookings');
 
+function sendmail (data) {
+    async function main() {
+        // Generate test SMTP service account from ethereal.email
+        // Only needed if you don't have a real mail account for testing
+        let testAccount = await nodemailer.createTestAccount();
+
+        // create reusable transporter object using the default SMTP transport
+        let transporter = nodemailer.createTransport({
+            host: "mail.hotelcomstermtwapa.co.ke",
+            port: 465,
+            secure: true, // true for 465, false for other ports
+            auth: {
+                user: "reservations@hotelcomstermtwapa.co.ke", // generated ethereal user
+                pass: "hotelcomstermtwapa@2021", // generated ethereal password
+            },
+        });
+
+        // send mail with defined transport object
+        let info = await transporter.sendMail({
+            from: '"Hotel Comster Mtwapa 🌴" <reservations@hotelcomstermtwapa.co.ke>', // sender address
+            to: data.mail, // list of receivers
+            subject: "Booking confirmation for " + data.name, // Subject line
+            text: 'Your booking has been confirmed', // plain text body
+            html: "<p>Your booking at " + data.hotel + " has been confirmed from " + data.checkin + " To " + data.checkout + " .</p> <br><p>Your reservation is for "+ data.adults +" adults and "+ data.children +" children. </p> <br> We hope you enjoy your stay!", // html body
+        });
+
+        console.log("Message sent: %s", info.messageId);
+        // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+
+        // Preview only available when sending through an Ethereal account
+        console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+        // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+    }
+
+    main().catch(console.error);
+}
+
 document.getElementById('form').onsubmit = function() {
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
@@ -96,6 +133,7 @@ document.getElementById('form').onsubmit = function() {
                 document.getElementById('formDivMain').hidden = true;
                 document.getElementById('formDiv').hidden = true;
                 document.getElementById('spinner').hidden = false;
+                sendmail(data)
             })
             .catch((error) => {
                 console.error("Error adding document: ", error);

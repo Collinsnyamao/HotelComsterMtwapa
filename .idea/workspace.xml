@@ -19,39 +19,50 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="Initial first draft.">
-      <change afterPath="$PROJECT_DIR$/1br-accomodation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/1200px-Backyardpool.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Beefstroganoff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Crispy-Pan-Fried-Fish-3-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Ratatouille.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bcoffee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/butterchicken.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/coffee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/double/c26b9407-b2f9-42cc-8145-9137fb2aa11a.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/double/c7489fd2-1246-43aa-b0e2-a14fb05c2143.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/double/c90ed2c3-2164-4281-ae71-ff0eeb32372c.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/double/e9da6cb7-e65b-4223-b94f-1fc0df982a7e.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/double/f909b2d3-b917-4d0b-85f0-43da87a3614b.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/double/fa048c8f-f30d-435a-86b1-3d191b2f2d59.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hotchoc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/julia-karnavusha-zWdBRmh8Gv8-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/mombasa-beach-betty2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/single/356bc562-6fc9-4015-8841-e57f38fa99e4.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/single/3ce1f725-9808-4c1d-be6d-fc34306a4c29.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/single/9ae23b55-d3af-4fd7-a225-5ef6cdae5440.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/single/efab3b76-9c99-413a-8116-e1ef11d34b62.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/single/f8edc90c-90e2-43e6-a84e-b8236bbcacbf.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/single/fa048c8f-f30d-435a-86b1-3d191b2f2d59.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double-accomodation.html" afterDir="false" />
+    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="second draft.">
+      <change afterPath="$PROJECT_DIR$/assets/images/Drinks1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Drinks2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Drinks3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Drinks4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/broiler.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/cake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/chefs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/chickensalad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/chickpea.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/chips.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/chipskuku.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/chk.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/coco.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/coleslaw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/dugali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/fcuts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/fish-fingers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/fish.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/fsalad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/knyj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/masala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/moritz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mshkaki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mutton.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/potato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/rice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/roastpotatoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/samosa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sandwich.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sandwich1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sausages.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/seafood1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/seafood2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/steak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/szabo-viktor-SoLWlSNXuvg-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/wings.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Hotel Comster Mtwapa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hotel Comster Mtwapa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accomodations.html" beforeDir="false" afterPath="$PROJECT_DIR$/accomodations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/booking.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dinning.html" beforeDir="false" afterPath="$PROJECT_DIR$/dinning.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-accomodation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,8 +136,17 @@
       <workItem from="1618316195998" duration="4497000" />
       <workItem from="1618854583304" duration="17000" />
       <workItem from="1618857896882" duration="3844000" />
-      <workItem from="1618922259281" duration="13288000" />
+      <workItem from="1618922259281" duration="13361000" />
+      <workItem from="1619026696694" duration="9797000" />
     </task>
+    <task id="LOCAL-00001" summary="second draft.">
+      <created>1619022948599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619022948599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +162,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second draft." />
+    <option name="LAST_COMMIT_MESSAGE" value="second draft." />
   </component>
   <component name="WindowStateProjectService">
     <state x="550" y="351" key="Github.ShareDialog" timestamp="1618862657016">
@@ -152,5 +177,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="417" y="152" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1618862663324" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1619022956157">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1619022956157" />
   </component>
 </project>
