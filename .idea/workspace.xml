@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="" />
+    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="Initial first draft.">
+      <change afterPath="$PROJECT_DIR$/1br-accomodation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/1200px-Backyardpool.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Beefstroganoff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Crispy-Pan-Fried-Fish-3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Ratatouille.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/bcoffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/butterchicken.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/coffee.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/double/c26b9407-b2f9-42cc-8145-9137fb2aa11a.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/double/c7489fd2-1246-43aa-b0e2-a14fb05c2143.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/double/c90ed2c3-2164-4281-ae71-ff0eeb32372c.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/double/e9da6cb7-e65b-4223-b94f-1fc0df982a7e.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/double/f909b2d3-b917-4d0b-85f0-43da87a3614b.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/double/fa048c8f-f30d-435a-86b1-3d191b2f2d59.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hotchoc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/julia-karnavusha-zWdBRmh8Gv8-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mombasa-beach-betty2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/single/356bc562-6fc9-4015-8841-e57f38fa99e4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/single/3ce1f725-9808-4c1d-be6d-fc34306a4c29.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/single/9ae23b55-d3af-4fd7-a225-5ef6cdae5440.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/single/efab3b76-9c99-413a-8116-e1ef11d34b62.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/single/f8edc90c-90e2-43e6-a84e-b8236bbcacbf.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/single/fa048c8f-f30d-435a-86b1-3d191b2f2d59.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/double-accomodation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accomodations.html" beforeDir="false" afterPath="$PROJECT_DIR$/accomodations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dinning.html" beforeDir="false" afterPath="$PROJECT_DIR$/dinning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-accomodation.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,18 +62,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1qJBApeTb3n5t3lGdQ3HPHL6Tu2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
@@ -37,6 +96,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/images/double" />
+      <recent name="$PROJECT_DIR$/assets/images/single" />
     </key>
   </component>
   <component name="RemoteSynchronizer">
@@ -63,11 +124,33 @@
       <workItem from="1618155142852" duration="1506000" />
       <workItem from="1618316195998" duration="4497000" />
       <workItem from="1618854583304" duration="17000" />
-      <workItem from="1618857896882" duration="3432000" />
+      <workItem from="1618857896882" duration="3844000" />
+      <workItem from="1618922259281" duration="13288000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="351" key="Github.ShareDialog" timestamp="1618862657016">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="550" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1618862657016" />
+    <state x="417" y="152" key="Github.UntrackedFilesDialog" timestamp="1618862663324">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="417" y="152" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1618862663324" />
   </component>
 </project>

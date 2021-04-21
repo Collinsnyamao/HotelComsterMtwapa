@@ -19,6 +19,7 @@ firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
 const database = firebase.database();
+var db = firebase.firestore();
 //const bookingListRef = firebase.database.ref('bookings');
 
 document.getElementById('form').onsubmit = function() {
@@ -56,7 +57,7 @@ document.getElementById('form').onsubmit = function() {
 
     console.log("data", data );
     function writeBookingData(data) {
-        database.ref('bookings/').push({
+        /*database.ref('bookings/').push({
             name: data.name,
             mail: data.mail,
             children: data.children,
@@ -70,14 +71,35 @@ document.getElementById('form').onsubmit = function() {
             hotel: data.hotel
         })
             .then(function (success) {
-            document.getElementById('bookingSuccessAlert').hidden = false;
-            document.getElementById('formDivMain').hidden = true;
-            document.getElementById('formDiv').hidden = true;
-            document.getElementById('spinner').hidden = false;
+
             console.log(success);
         }).catch(function (error) {
             console.log(error);
-        });
+        });*/
+
+        db.collection("bookings").add({
+            name: data.name,
+            mail: data.mail,
+            children: data.children,
+            checkout: data.checkout,
+            checkin: data.checkin,
+            rooms: data.rooms,
+            adults: data.adults,
+            notes: data.notes,
+            amount: data.amount,
+            guests: data.guests,
+            hotel: data.hotel
+        })
+            .then((docRef) => {
+                console.log("Document written with ID: ", docRef.id);
+                document.getElementById('bookingSuccessAlert').hidden = false;
+                document.getElementById('formDivMain').hidden = true;
+                document.getElementById('formDiv').hidden = true;
+                document.getElementById('spinner').hidden = false;
+            })
+            .catch((error) => {
+                console.error("Error adding document: ", error);
+            });
     }
 
     writeBookingData(data);
