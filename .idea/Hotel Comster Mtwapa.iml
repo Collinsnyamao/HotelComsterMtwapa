@@ -14,5 +14,6 @@
     <orderEntry type="library" name="firebase-analytics" level="application" />
     <orderEntry type="library" name="firebase-database" level="application" />
     <orderEntry type="library" name="nodemailer" level="application" />
+    <orderEntry type="library" name="emailjs-com" level="application" />
   </component>
 </module>
