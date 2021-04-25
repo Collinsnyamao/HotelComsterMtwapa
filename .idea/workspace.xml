@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="third draft, full menu including drinks.">
+    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="Fixed site description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1br-accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/1br-accomodation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
@@ -113,7 +113,7 @@
       <workItem from="1619026696694" duration="12935000" />
       <workItem from="1619192058391" duration="1273000" />
       <workItem from="1619275712718" duration="870000" />
-      <workItem from="1619296682025" duration="646000" />
+      <workItem from="1619296682025" duration="734000" />
     </task>
     <task id="LOCAL-00001" summary="second draft.">
       <created>1619022948599</created>
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619040385729</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed site description">
+      <created>1619359710880</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619359710880</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +169,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second draft." />
     <MESSAGE value="third draft, full menu including drinks." />
-    <option name="LAST_COMMIT_MESSAGE" value="third draft, full menu including drinks." />
+    <MESSAGE value="Fixed site description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed site description" />
   </component>
   <component name="WindowStateProjectService">
     <state x="550" y="351" key="Github.ShareDialog" timestamp="1618862657016">
