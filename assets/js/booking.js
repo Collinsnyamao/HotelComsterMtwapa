@@ -31,8 +31,10 @@ document.getElementById('form').onsubmit = function() {
     let children = document.getElementById('children').value;
     let rooms = document.getElementById('room').value;
     let notes = document.getElementById('notes').value;
+    let phone = document.getElementById('phone').value;
 
     name = filterXSS(name);
+    phone = filterXSS(phone)
     email = filterXSS(email);
     notes = filterXSS(notes);
     console.log(name, email, children, checkoutInput, checkinInput, rooms, adults, notes);
@@ -51,7 +53,8 @@ document.getElementById('form').onsubmit = function() {
         notes: notes,
         amount: 0,
         guests: adults + children,
-        hotel: "Hotel Comster Mtwapa"
+        hotel: "Hotel Comster Mtwapa",
+        phone
     }
     //console.log(bookingListRef);
 
@@ -89,7 +92,8 @@ document.getElementById('form').onsubmit = function() {
             amount: data.amount,
             guests: data.guests,
             hotel: data.hotel,
-            status: false
+            status: false,
+            phone: phone
         })
             .then((docRef) => {
                 console.log("Document written with ID: ", docRef.id);

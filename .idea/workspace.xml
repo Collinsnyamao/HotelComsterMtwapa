@@ -27,15 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="Fixed site description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1br-accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/1br-accomodation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accomodations.html" beforeDir="false" afterPath="$PROJECT_DIR$/accomodations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/double-accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/double-accomodation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-accomodation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/booking.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +105,7 @@
       <workItem from="1619026696694" duration="12935000" />
       <workItem from="1619192058391" duration="1273000" />
       <workItem from="1619275712718" duration="870000" />
-      <workItem from="1619296682025" duration="734000" />
+      <workItem from="1619296682025" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="second draft.">
       <created>1619022948599</created>
@@ -136,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619359710880</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed site description">
+      <created>1619359786959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619359786959</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,10 +180,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="417" y="152" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1618862663324" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1619296697679">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1619359792352">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1619296697679" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1619359792352" />
     <state x="320" y="207" key="Vcs.Push.Dialog.v2/0.25.1440.817@0.25.1440.817" timestamp="1619040389850" />
   </component>
 </project>
