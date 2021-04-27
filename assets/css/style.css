@@ -525,7 +525,7 @@ input[type=tel]:focus,
 input[type=url]:focus,
 select:focus,
 textarea:focus {
-	border-color: #ffd40d;
+	border-color: #00ACEE;
 	outline: none;
 }
 
@@ -689,8 +689,8 @@ button.button-color,
 input[type="button"].button-color,
 input[type="reset"].button-color,
 input[type="submit"].button-color {
-	border-color: #ffd40d;
-	background-color: #ffd40d;
+	border-color: #00ACEE;
+	background-color: #00ACEE;
 	color: #000;
 }
 
@@ -1083,7 +1083,7 @@ button .mdi {
 
 	.gallery-grid-container .column-image a:hover,
 	.gallery-grid-container .column-image a:focus {
-		border-color: #ffd40d;
+		border-color: #00ACEE;
 	}
 
 	.gallery-grid-container .column-image a:hover .mdi,
@@ -1244,7 +1244,7 @@ button .mdi {
 .tab-container .tabs {
 	list-style: none;
 	padding: 0;
-	border-bottom: 3px solid #ffd40d;
+	border-bottom: 3px solid #00ACEE;
 }
 
 .tab-container .tabs li {
@@ -1269,7 +1269,7 @@ button .mdi {
 }
 
 .tab-container .tabs a.tab-link-active {
-	background-color: #ffd40d;
+	background-color: #00ACEE;
 	color: #000;
 }
 
@@ -1366,7 +1366,7 @@ button .mdi {
 
 .dinning-menu-item .image a:hover,
 .dinning-menu-item .image a:focus {
-	border-color: #ffd40d;
+	border-color: #00ACEE;
 }
 
 .dinning-menu-item .image img {
@@ -2571,7 +2571,7 @@ button .mdi {
 	}
 
 	#identity .languages .current-menu-item a {
-		background-color: #ffd40d;
+		background-color: #00ACEE;
 		color: initial;
 	}
 }
@@ -2616,7 +2616,7 @@ button .mdi {
 
 	#identity .languages .current-menu-item a:after {
 		bottom: 6px;
-		background-color: #ffd40d;
+		background-color: #00ACEE;
 	}
 }
 
@@ -2993,7 +2993,7 @@ button .mdi {
 	#site-menu .nav-menu > ul > .current-menu-item > a:after,
 	#site-menu .nav-menu > ul > .current-menu-parent > a:after {
 		bottom: 6px;
-		background-color: #ffd40d;
+		background-color: #00ACEE;
 	}
 
 	.nav-menu .menu-item-has-children ul {
@@ -3035,7 +3035,7 @@ button .mdi {
 
 	.nav-menu .menu-item-has-children li {
 		display: block;
-		background-color: #ffd40d;
+		background-color: #00ACEE;
 	}
 
 	.nav-menu .menu-item-has-children li:first-child {
@@ -4016,7 +4016,7 @@ button .mdi {
 
 .booking-form form .field .dropdown ul .selected a {
 	font-weight: 600;
-	background-color: #ffd40d;
+	background-color: #00ACEE;
 }
 
 .booking-form form button {
@@ -4068,7 +4068,7 @@ button .mdi {
 	visibility: visible;
 	opacity: 1;
 	background-color: #fff;
-	border: 3px solid #ffd40d;
+	border: 3px solid #00ACEE;
 	margin-top: 4.65rem;
 	-webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .05);
 	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .05);
@@ -4308,7 +4308,7 @@ button .mdi {
 
 	.entry-media > a:hover,
 	.entry-media > a:focus {
-		border-color: #ffd40d;
+		border-color: #00ACEE;
 	}
 
 	.entry-media > a:hover:before,
@@ -4453,9 +4453,9 @@ button .mdi {
 }
 
 .entry-accomodation .accomodation-price .price {
-	background-image: -webkit-gradient(linear, left top, right top, from(#ffd40d), to(#ffd40d));
-	background-image: -o-linear-gradient(left, #ffd40d 0%, #ffd40d 100%);
-	background-image: linear-gradient(to right, #ffd40d 0%, #ffd40d 100%);
+	background-image: -webkit-gradient(linear, left top, right top, from(#00ACEE), to(#00ACEE));
+	background-image: -o-linear-gradient(left, #00ACEE 0%, #00ACEE 100%);
+	background-image: linear-gradient(to right, #00ACEE 0%, #00ACEE 100%);
 	background-position: 0 65%;
 	background-repeat: repeat-x;
 	background-size: 100% 10px;

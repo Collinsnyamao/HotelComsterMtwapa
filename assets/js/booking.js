@@ -2,8 +2,15 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const checkin = urlParams.get('checkin')
 const checkout = urlParams.get('checkout')
+const adults = urlParams.get('adults')
+const children = urlParams.get('children')
 document.getElementById('checkin').value = checkin;
 document.getElementById('checkout').value = checkout;
+
+document.getElementById('adults'+adults).selected = 'selected';
+document.getElementById('children'+children).selected = 'selected';
+
+
 
 var firebaseConfig = {
     apiKey: "AIzaSyC75xjGMriJU1viUZYgfgHYpthYybhAvmg",
