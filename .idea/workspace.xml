@@ -25,19 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="switch images">
-      <change afterPath="$PROJECT_DIR$/assets/images/3ce1f725-9808-4c1d-be6d-fc34306a4c29.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="Added gm changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1br-accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/1br-accomodation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accomodations.html" beforeDir="false" afterPath="$PROJECT_DIR$/accomodations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/booking.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-accomodation.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-accomodation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +108,8 @@
       <workItem from="1619275712718" duration="870000" />
       <workItem from="1619296682025" duration="2047000" />
       <workItem from="1619428504264" duration="236000" />
-      <workItem from="1619527463454" duration="4995000" />
+      <workItem from="1619527463454" duration="5783000" />
+      <workItem from="1619799409238" duration="2056000" />
     </task>
     <task id="LOCAL-00001" summary="second draft.">
       <created>1619022948599</created>
@@ -168,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619428521931</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added gm changes">
+      <created>1619533331539</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619533331539</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +202,8 @@
     <MESSAGE value="third draft, full menu including drinks." />
     <MESSAGE value="Fixed site description" />
     <MESSAGE value="switch images" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch images" />
+    <MESSAGE value="Added gm changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added gm changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="550" y="351" key="Github.ShareDialog" timestamp="1618862657016">
@@ -214,10 +214,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="417" y="152" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1618862663324" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1619428529787">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1619533333952">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1619428529787" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1619533333952" />
     <state x="320" y="207" key="Vcs.Push.Dialog.v2/0.25.1440.817@0.25.1440.817" timestamp="1619040389850" />
   </component>
 </project>

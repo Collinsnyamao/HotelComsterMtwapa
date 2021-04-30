@@ -138,18 +138,25 @@
 						</select>
 					</p>
 					<p class="field-room-type">
-						<label for="room">Select a room</label>
+						<label for="room">Select a room (For pricing details click <a href="accomodations.html">here</a> )</label>
 						<select name="room" id="room" required>
 							<option value="">&nbsp;</option>
 							<option value="studio">Studio room</option>
-							<option value="single">Single room</option>
-							<option value="double">Double room</option>
+							<option value="one-bedroom">Single room</option>
+							<option value="two-bedroom">Double room</option>
 						</select>
 					</p>
 					<p class="field-children">
-						<label for="phone">Phone number</label>
-						<input type="tel" name="phone" id="phone" class="" placeholder="Phone number (Add country code)" required>
+						<label for="roomNumber">Select number of rooms</label>
+						<select name="roomNumber" id="roomNumber" required>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+						</select>
 					</p>
+					<label for="phone">Phone number</label>
+					<input type="tel" name="phone" id="phone" class="" placeholder="Phone number (Add country code)" required>
 					<!--<p class="field-room-no">
 						<label for="room-no">How many rooms</label>
 						<select name="room-no" id="room-no">
