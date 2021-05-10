@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="Added gm changes">
+    <list default="true" id="f69cb3d9-ee07-4b1d-b893-e78f2ebfd236" name="Default Changelist" comment="fix: unit count">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/booking.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/booking.html" afterDir="false" />
@@ -109,7 +109,9 @@
       <workItem from="1619296682025" duration="2047000" />
       <workItem from="1619428504264" duration="236000" />
       <workItem from="1619527463454" duration="5783000" />
-      <workItem from="1619799409238" duration="2056000" />
+      <workItem from="1619799409238" duration="2141000" />
+      <workItem from="1620638635281" duration="375000" />
+      <workItem from="1620640548251" duration="3132000" />
     </task>
     <task id="LOCAL-00001" summary="second draft.">
       <created>1619022948599</created>
@@ -167,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619533331539</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix: unit count">
+      <created>1619801655389</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619801655389</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +212,8 @@
     <MESSAGE value="Fixed site description" />
     <MESSAGE value="switch images" />
     <MESSAGE value="Added gm changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added gm changes" />
+    <MESSAGE value="fix: unit count" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: unit count" />
   </component>
   <component name="WindowStateProjectService">
     <state x="550" y="351" key="Github.ShareDialog" timestamp="1618862657016">
@@ -214,10 +224,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="417" y="152" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1618862663324" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1619533333952">
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1619801660579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1619533333952" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1619801660579" />
     <state x="320" y="207" key="Vcs.Push.Dialog.v2/0.25.1440.817@0.25.1440.817" timestamp="1619040389850" />
   </component>
 </project>

@@ -6,9 +6,20 @@ const adults = urlParams.get('adults')
 const children = urlParams.get('children')
 document.getElementById('checkin').value = checkin;
 document.getElementById('checkout').value = checkout;
+console.log(adults)
+if (adults) {
+    document.getElementById('adults'+adults).selected = 'selected';
+} else {
+    document.getElementById('adultsna').selected = 'selected';
+}
 
-document.getElementById('adults'+adults).selected = 'selected';
-document.getElementById('children'+children).selected = 'selected';
+if (children){
+    document.getElementById('children'+children).selected = 'selected';
+}else {
+    document.getElementById('children0').selected = 'selected';
+}
+
+
 
 
 
@@ -28,6 +39,11 @@ firebase.analytics();
 const database = firebase.database();
 var db = firebase.firestore();
 //const bookingListRef = firebase.database.ref('bookings');
+
+function getDateDiff(earlier_date, later_date) {
+    let Difference_In_Time = new Date(later_date).getTime() - new Date(earlier_date).getTime();
+    return Math.round(Difference_In_Time / (1000 * 3600 * 24));
+}
 
 document.getElementById('form').onsubmit = function() {
     let name = document.getElementById('name').value;
@@ -112,17 +128,39 @@ document.getElementById('form').onsubmit = function() {
                 document.getElementById('formDivMain').hidden = true;
                 document.getElementById('formDiv').hidden = true;
                 document.getElementById('spinner').hidden = false;
-                var templateParams = {
+                let templateParams = {
                     to_name: data.name,
                     to_email: data.mail,
                     checkin: data.checkin,
+                    checkin2: data.checkin,
                     checkout: data.checkout,
+                    checkout2: data.checkout,
+                    nights: getDateDiff(data.checkin, data.checkout) + ' nights',
+                    phone: data.phone,
+                    email: data.mail,
+                    reply_to: 'reservations@hotelcomstermtwapa.co.ke'
+                };
+
+                const templateParams2 = {
+                    booking_name: data.name,
+                    checkin_date: data.checkin,
+                    checkout_date: data.checkout,
+                    nights: getDateDiff(data.checkin, data.checkout) + ' nights',
+                    phone: data.phone,
+                    email: data.mail,
                     reply_to: 'reservations@hotelcomstermtwapa.co.ke'
                 };
 
                 emailjs.send('service_h38wuz1', 'template_ctekf5a', templateParams)
                     .then(function(response) {
                         console.log('SUCCESS!', response.status, response.text);
+
+                        emailjs.send('service_h38wuz1', 'template_ftgc1gp', templateParams2)
+                            .then(function(response2) {
+                                console.log('SUCCESS!', response2.status, response2.text);
+                            }, function(error2) {
+                                console.log('FAILED...', error2);
+                            });
                     }, function(error) {
                         console.log('FAILED...', error);
                     });
